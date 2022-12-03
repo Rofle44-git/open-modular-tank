@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpxtmi0jn0bch"]
+
+[ext_resource type="Texture2D" uid="uid://wk4x81l7w0wo" path="res://assets/tilesets/metalwallbg.png" id="1_ubus1"]
+
+[node name="MetalWallBG" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(960, 640)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+texture = ExtResource("1_ubus1")
+region_enabled = true
+region_rect = Rect2(0, 0, 960, 640)

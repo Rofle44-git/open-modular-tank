@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://dceydxfuqhf3r"]
+
+[ext_resource type="FontFile" uid="uid://cqop5ugpvm2rq" path="res://fonts/NotoSansMono-Bold.ttf" id="1_sjryd"]
+
+[resource]
+line_spacing = 0.0
+font = ExtResource("1_sjryd")

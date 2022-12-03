@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://culj50rjhwcrm"]
+
+[ext_resource type="Script" path="res://objects/tank_extensions/base_core.gd" id="1_b2c1k"]
+
+[node name="Core" type="Sprite2D"]
+script = ExtResource("1_b2c1k")

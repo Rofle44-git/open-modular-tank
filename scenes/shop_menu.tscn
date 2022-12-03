@@ -1,0 +1,178 @@
+[gd_scene load_steps=4 format=3 uid="uid://cinjh634momya"]
+
+[ext_resource type="Texture2D" uid="uid://cx6jphfh3he63" path="res://assets/gui/bullet.svg" id="1_flkvn"]
+[ext_resource type="Texture2D" uid="uid://c0kd3cipfl2dn" path="res://assets/gui/burst.svg" id="2_ibtay"]
+[ext_resource type="Texture2D" uid="uid://32ljwkob64nj" path="res://assets/gui/ray.svg" id="3_w1dmp"]
+
+[node name="ShopMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer"]
+layout_mode = 2
+offset_left = 180.0
+offset_top = 90.0
+offset_right = 780.0
+offset_bottom = 450.0
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/PanelContainer"]
+layout_mode = 2
+offset_right = 600.0
+offset_bottom = 360.0
+
+[node name="TabContainer" type="TabContainer" parent="CenterContainer/PanelContainer/MarginContainer"]
+custom_minimum_size = Vector2(600, 360)
+layout_mode = 2
+offset_right = 600.0
+offset_bottom = 360.0
+tab_alignment = 1
+
+[node name="Shop" type="TabBar" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer"]
+layout_mode = 2
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HSplitContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer"]
+layout_mode = 2
+offset_right = 600.0
+offset_bottom = 329.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_right = 354.0
+offset_bottom = 329.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="ItemList" type="ItemList" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer"]
+layout_mode = 2
+offset_right = 354.0
+offset_bottom = 329.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+item_count = 3
+max_columns = 5
+item_0/text = ""
+item_0/icon = ExtResource("1_flkvn")
+item_1/text = ""
+item_1/icon = ExtResource("2_ibtay")
+item_2/text = ""
+item_2/icon = ExtResource("3_w1dmp")
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 366.0
+offset_right = 600.0
+offset_bottom = 329.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2"]
+layout_mode = 2
+offset_right = 234.0
+offset_bottom = 329.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Name" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer"]
+layout_mode = 2
+offset_right = 234.0
+offset_bottom = 42.0
+theme_type_variation = &"HeaderLarge"
+text = "GATTLING GUN"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer"]
+layout_mode = 2
+offset_top = 46.0
+offset_right = 234.0
+offset_bottom = 50.0
+
+[node name="ModName" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer"]
+layout_mode = 2
+offset_top = 54.0
+offset_right = 234.0
+offset_bottom = 80.0
+theme_type_variation = &"SubTitle"
+text = "MyAwesomeMod"
+
+[node name="Properties" type="GridContainer" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer"]
+layout_mode = 2
+offset_top = 84.0
+offset_right = 234.0
+offset_bottom = 140.0
+columns = 2
+
+[node name="Label" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer/Properties"]
+layout_mode = 2
+offset_right = 91.0
+offset_bottom = 26.0
+text = "Damage:"
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer/Properties"]
+layout_mode = 2
+offset_left = 224.0
+offset_right = 234.0
+offset_bottom = 26.0
+size_flags_horizontal = 10
+text = "2"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer/Properties"]
+layout_mode = 2
+offset_top = 30.0
+offset_right = 91.0
+offset_bottom = 56.0
+text = "Shoot Type:"
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer/Shop/MarginContainer/HBoxContainer/ScrollContainer2/VBoxContainer/Properties"]
+layout_mode = 2
+offset_left = 188.0
+offset_top = 30.0
+offset_right = 234.0
+offset_bottom = 56.0
+size_flags_horizontal = 10
+text = "Bullet"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Garage" type="TabBar" parent="CenterContainer/PanelContainer/MarginContainer/TabContainer"]
+visible = false
+layout_mode = 2
+offset_right = 40.0
+offset_bottom = 40.0

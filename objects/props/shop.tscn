@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dsdh5yvce5104"]
+
+[ext_resource type="Texture2D" uid="uid://8hflbkyx036c" path="res://assets/objects/shop.svg" id="1_dox30"]
+[ext_resource type="Script" path="res://objects/props/shop.gd" id="1_yd034"]
+[ext_resource type="Texture2D" uid="uid://hbr7i3t1g4rp" path="res://assets/objects/wrench.svg" id="2_jpog1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jgseg"]
+size = Vector2(320, 320)
+
+[node name="Shop" type="Area2D"]
+collision_layer = 16
+collision_mask = 4
+script = ExtResource("1_yd034")
+
+[node name="Base" type="Sprite2D" parent="."]
+texture = ExtResource("1_dox30")
+
+[node name="Wrench" type="Sprite2D" parent="."]
+texture = ExtResource("2_jpog1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_jgseg")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

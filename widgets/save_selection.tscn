@@ -1,0 +1,50 @@
+[gd_scene load_steps=4 format=3 uid="uid://gbbsb0xe46gn"]
+
+[ext_resource type="PackedScene" uid="uid://cnvr52q7plfgp" path="res://widgets/menu.tscn" id="1_6gulw"]
+[ext_resource type="Script" path="res://widgets/save_selection.gd" id="2_qjwvn"]
+[ext_resource type="Script" path="res://widgets/NewGame.gd" id="3_s1f84"]
+
+[node name="SaveSelection" instance=ExtResource("1_6gulw")]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="0"]
+layout_mode = 2
+offset_left = 396.0
+offset_top = 155.0
+offset_right = 756.0
+offset_bottom = 492.0
+theme_override_constants/separation = 6
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" index="0"]
+custom_minimum_size = Vector2(360, 300)
+layout_mode = 2
+offset_right = 360.0
+offset_bottom = 300.0
+vertical_scroll_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/ScrollContainer" index="0"]
+layout_mode = 2
+offset_right = 360.0
+offset_bottom = 300.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/MarginContainer" index="0"]
+layout_mode = 2
+offset_right = 360.0
+offset_bottom = 300.0
+theme_override_constants/separation = 20
+script = ExtResource("2_qjwvn")
+
+[node name="NewGame" type="Button" parent="VBoxContainer" index="1"]
+layout_mode = 2
+offset_left = 133.0
+offset_top = 306.0
+offset_right = 226.0
+offset_bottom = 337.0
+size_flags_horizontal = 4
+theme_type_variation = &"BigButton"
+text = "New Game"
+script = ExtResource("3_s1f84")
+
+[connection signal="shown" from="." to="VBoxContainer/ScrollContainer/MarginContainer/HBoxContainer" method="_on_save_selection_shown"]
+[connection signal="button_up" from="VBoxContainer/NewGame" to="VBoxContainer/NewGame" method="_on_button_up"]

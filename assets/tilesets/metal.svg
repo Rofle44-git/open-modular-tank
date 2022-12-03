@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="640"
+   viewBox="0 0 640 640"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="metal.svg"
+   inkscape:export-filename="metal.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#333333"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#000000"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="285.67114"
+     inkscape:cy="315.36962"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       spacingx="40"
+       spacingy="40"
+       empspacing="4"
+       empcolor="#00e5e5"
+       empopacity="0.76078431"
+       color="#0099e5"
+       opacity="0.2"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter37978"
+       x="-0.027000001"
+       y="-0.027000001"
+       width="1.054"
+       height="1.054">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.1"
+         id="feGaussianBlur37980" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38002"
+       x="-0.048"
+       y="-0.048"
+       width="1.096"
+       height="1.096">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="16"
+         id="feGaussianBlur38004" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#4d1a0f;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect32094"
+       width="640"
+       height="640"
+       x="0"
+       y="0"
+       rx="0"
+       ry="0" />
+    <path
+       id="path37976"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;filter:url(#filter37978);opacity:0.2"
+       d="M 40 0 A 40 40 0 0 0 0 -40 A 40 40 0 0 0 -40 0 A 40 40 0 0 0 0 40 A 40 40 0 0 0 40 0 z M 40 160 A 40 40 0 0 0 0 120 A 40 40 0 0 0 -40 160 A 40 40 0 0 0 0 200 A 40 40 0 0 0 40 160 z M 40 480 A 40 40 0 0 0 0 440 A 40 40 0 0 0 -40 480 A 40 40 0 0 0 0 520 A 40 40 0 0 0 40 480 z M 40 640 A 40 40 0 0 0 0 600 A 40 40 0 0 0 -40 640 A 40 40 0 0 0 0 680 A 40 40 0 0 0 40 640 z M -120 160 A 40 40 0 0 0 -160 120 A 40 40 0 0 0 -200 160 A 40 40 0 0 0 -160 200 A 40 40 0 0 0 -120 160 z M -280 0 A 40 40 0 0 0 -320 -40 A 40 40 0 0 0 -360 0 A 40 40 0 0 0 -320 40 A 40 40 0 0 0 -280 0 z M -280 640 A 40 40 0 0 0 -320 600 A 40 40 0 0 0 -360 640 A 40 40 0 0 0 -320 680 A 40 40 0 0 0 -280 640 z M -440 0 A 40 40 0 0 0 -480 -40 A 40 40 0 0 0 -520 0 A 40 40 0 0 0 -480 40 A 40 40 0 0 0 -440 0 z M -440 160 A 40 40 0 0 0 -480 120 A 40 40 0 0 0 -520 160 A 40 40 0 0 0 -480 200 A 40 40 0 0 0 -440 160 z M -440 320 A 40 40 0 0 0 -480 280 A 40 40 0 0 0 -520 320 A 40 40 0 0 0 -480 360 A 40 40 0 0 0 -440 320 z M -440 640 A 40 40 0 0 0 -480 600 A 40 40 0 0 0 -520 640 A 40 40 0 0 0 -480 680 A 40 40 0 0 0 -440 640 z M -600 0 A 40 40 0 0 0 -640 -40 A 40 40 0 0 0 -680 0 A 40 40 0 0 0 -640 40 A 40 40 0 0 0 -600 0 z M -600 160 A 40 40 0 0 0 -640 120 A 40 40 0 0 0 -680 160 A 40 40 0 0 0 -640 200 A 40 40 0 0 0 -600 160 z M -600 480 A 40 40 0 0 0 -640 440 A 40 40 0 0 0 -680 480 A 40 40 0 0 0 -640 520 A 40 40 0 0 0 -600 480 z M -600 640 A 40 40 0 0 0 -640 600 A 40 40 0 0 0 -680 640 A 40 40 0 0 0 -640 680 A 40 40 0 0 0 -600 640 z "
+       transform="rotate(-90)" />
+    <path
+       id="path36486"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;filter:url(#filter38002)"
+       d="M 80 318.5 C 80 275.01104 44.319956 240 0 240 L -156.64844 240 L -163.35156 240 L -240 240 L -240 160 C -240 115.68004 -275.68004 80 -320 80 C -364.31996 80 -400 115.68004 -400 160 L -400 400 L -480 400 C -524.31996 400 -560 435.68004 -560 480 C -560 524.31996 -524.31996 560 -480 560 L -240 560 L -240 640 C -240 684.31996 -205.81442 720 -163.35156 720 L -156.64844 720 C -114.18558 720 -80 684.31996 -80 640 L -80 480 L -80 400 L 0 400 C 44.319956 400 80 364.98896 80 321.5 L 80 318.5 z M -80 0 A 80 80 0 0 0 -160 -80 A 80 80 0 0 0 -240 0 A 80 80 0 0 0 -160 80 A 80 80 0 0 0 -80 0 z M -560 320 A 80 80 0 0 0 -640 240 A 80 80 0 0 0 -720 320 A 80 80 0 0 0 -640 400 A 80 80 0 0 0 -560 320 z "
+       transform="rotate(-90)" />
+    <path
+       id="circle2725"
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 40 0 A 40 40 0 0 0 0 -40 A 40 40 0 0 0 -40 0 A 40 40 0 0 0 0 40 A 40 40 0 0 0 40 0 z M 40 160 A 40 40 0 0 0 0 120 A 40 40 0 0 0 -40 160 A 40 40 0 0 0 0 200 A 40 40 0 0 0 40 160 z M 40 480 A 40 40 0 0 0 0 440 A 40 40 0 0 0 -40 480 A 40 40 0 0 0 0 520 A 40 40 0 0 0 40 480 z M 40 640 A 40 40 0 0 0 0 600 A 40 40 0 0 0 -40 640 A 40 40 0 0 0 0 680 A 40 40 0 0 0 40 640 z M -120 160 A 40 40 0 0 0 -160 120 A 40 40 0 0 0 -200 160 A 40 40 0 0 0 -160 200 A 40 40 0 0 0 -120 160 z M -280 0 A 40 40 0 0 0 -320 -40 A 40 40 0 0 0 -360 0 A 40 40 0 0 0 -320 40 A 40 40 0 0 0 -280 0 z M -280 640 A 40 40 0 0 0 -320 600 A 40 40 0 0 0 -360 640 A 40 40 0 0 0 -320 680 A 40 40 0 0 0 -280 640 z M -440 0 A 40 40 0 0 0 -480 -40 A 40 40 0 0 0 -520 0 A 40 40 0 0 0 -480 40 A 40 40 0 0 0 -440 0 z M -440 160 A 40 40 0 0 0 -480 120 A 40 40 0 0 0 -520 160 A 40 40 0 0 0 -480 200 A 40 40 0 0 0 -440 160 z M -440 320 A 40 40 0 0 0 -480 280 A 40 40 0 0 0 -520 320 A 40 40 0 0 0 -480 360 A 40 40 0 0 0 -440 320 z M -440 640 A 40 40 0 0 0 -480 600 A 40 40 0 0 0 -520 640 A 40 40 0 0 0 -480 680 A 40 40 0 0 0 -440 640 z M -600 0 A 40 40 0 0 0 -640 -40 A 40 40 0 0 0 -680 0 A 40 40 0 0 0 -640 40 A 40 40 0 0 0 -600 0 z M -600 160 A 40 40 0 0 0 -640 120 A 40 40 0 0 0 -680 160 A 40 40 0 0 0 -640 200 A 40 40 0 0 0 -600 160 z M -600 480 A 40 40 0 0 0 -640 440 A 40 40 0 0 0 -680 480 A 40 40 0 0 0 -640 520 A 40 40 0 0 0 -600 480 z M -600 640 A 40 40 0 0 0 -640 600 A 40 40 0 0 0 -680 640 A 40 40 0 0 0 -640 680 A 40 40 0 0 0 -600 640 z "
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle12335"
+       cx="-320"
+       cy="160"
+       r="40"
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle12337"
+       cx="-320"
+       cy="320"
+       r="40"
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle17889"
+       cx="-480"
+       cy="480"
+       r="40"
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle17891"
+       cx="-320"
+       cy="480"
+       r="40"
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle17907"
+       cx="-160"
+       cy="320"
+       r="40"
+       transform="rotate(-90)" />
+    <circle
+       style="fill:#802a19;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle17909"
+       cx="-160"
+       cy="480"
+       r="40"
+       transform="rotate(-90)" />
+    <path
+       id="path18743"
+       style="fill:#260d08;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 80 318.5 C 80 275.01104 44.319956 240 0 240 L -156.64844 240 L -163.35156 240 L -240 240 L -240 160 C -240 115.68004 -275.68004 80 -320 80 C -364.31996 80 -400 115.68004 -400 160 L -400 400 L -480 400 C -524.31996 400 -560 435.68004 -560 480 C -560 524.31996 -524.31996 560 -480 560 L -240 560 L -240 640 C -240 684.31996 -205.81442 720 -163.35156 720 L -156.64844 720 C -114.18558 720 -80 684.31996 -80 640 L -80 480 L -80 400 L 0 400 C 44.319956 400 80 364.98896 80 321.5 L 80 318.5 z M -80 0 A 80 80 0 0 0 -160 -80 A 80 80 0 0 0 -240 0 A 80 80 0 0 0 -160 80 A 80 80 0 0 0 -80 0 z M -560 320 A 80 80 0 0 0 -640 240 A 80 80 0 0 0 -720 320 A 80 80 0 0 0 -640 400 A 80 80 0 0 0 -560 320 z "
+       transform="rotate(-90)" />
+  </g>
+</svg>

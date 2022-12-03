@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://biqm4r033eahp"]
+
+[ext_resource type="PackedScene" uid="uid://bpc38bo51x5jr" path="res://objects/tank_extensions/base_tracks.tscn" id="1_dwecl"]
+[ext_resource type="Texture2D" uid="uid://dpci6c66bcqte" path="res://assets/tracks/tracks.svg" id="2_by4eb"]
+
+[node name="Tracks" instance=ExtResource("1_dwecl")]
+
+[node name="L" parent="." index="2"]
+texture = ExtResource("2_by4eb")
+region_rect = Rect2(0, 0, 100, 400)
+
+[node name="R" parent="." index="3"]
+texture = ExtResource("2_by4eb")
+region_rect = Rect2(230, 0, 100, 400)

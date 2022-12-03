@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://6i0kbh34qi0g"]
+
+[ext_resource type="PackedScene" uid="uid://btrel4fwpcqo7" path="res://objects/tanks/tank.tscn" id="1_bopwo"]
+[ext_resource type="Script" path="res://objects/tanks/player_tank.gd" id="2_jsati"]
+[ext_resource type="PackedScene" uid="uid://biqm4r033eahp" path="res://objects/tank_extensions/standard_tracks.tscn" id="3_ejgjd"]
+[ext_resource type="Script" path="res://objects/other/PlayerCamera.gd" id="3_ir4db"]
+
+[node name="PlayerTank" instance=ExtResource("1_bopwo")]
+script = ExtResource("2_jsati")
+
+[node name="Tracks" parent="." index="0" instance=ExtResource("3_ejgjd")]
+
+[node name="Camera2D" type="Camera2D" parent="." index="4"]
+current = true
+zoom = Vector2(0.2, 0.2)
+position_smoothing_enabled = true
+script = ExtResource("3_ir4db")

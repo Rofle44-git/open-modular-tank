@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://btrel4fwpcqo7"]
+
+[ext_resource type="PackedScene" uid="uid://bgr1qv014de1b" path="res://objects/tank_extensions/standard_core.tscn" id="2_83hu6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ceyi6"]
+size = Vector2(400, 400)
+
+[node name="Tank" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 15
+motion_mode = 1
+metadata/_edit_vertical_guides_ = []
+metadata/_edit_horizontal_guides_ = []
+metadata/_edit_group_ = true
+
+[node name="Core" parent="." instance=ExtResource("2_83hu6")]
+
+[node name="Weapon" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ceyi6")

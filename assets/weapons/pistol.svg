@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 400 200"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="pistol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#333333"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#000000"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="172.25"
+     inkscape:cy="70.75"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       spacingx="5"
+       spacingy="5"
+       empspacing="10"
+       empcolor="#00e5e5"
+       empopacity="0.54901961"
+       color="#0099e5"
+       opacity="0.2"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="base"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect31273"
+       style="fill:#999999;stroke:none;stroke-width:7;stroke-miterlimit:16;stop-color:#000000"
+       d="M 330 75 L 330 125 L 340.36133 125 C 345.70098 125 350 120.53999 350 115 L 350 85 C 350 79.460006 345.70098 75 340.36133 75 L 330 75 z " />
+    <path
+       style="fill:#cccccc;stroke:none;stroke-width:7;stroke-miterlimit:16;stop-color:#000000"
+       d="M 100,150 V 50 h 50 l 50,25 h 130 v 50 H 200 l -50,25 z"
+       id="path31219"
+       sodipodi:nodetypes="ccccccccc" />
+    <circle
+       style="fill:#ffffff;stroke:none;stroke-width:7;stroke-miterlimit:16;stop-color:#000000"
+       id="path31059"
+       cx="100"
+       cy="100"
+       r="50" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="heat">
+    <path
+       id="path31452"
+       style="color:#000000;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16"
+       d="M 140.71289 71 A 50 50 0 0 1 145.36719 79 L 149.05664 79 L 191.05469 100 L 149.05664 121 L 145.35742 121 A 50 50 0 0 1 140.58789 129 L 150 129 A 4.0004 4.0004 0 0 0 151.78906 128.57812 L 200.94336 104 L 300 104 A 4 4 0 0 0 304 100 A 4 4 0 0 0 300 96 L 200.94531 96 L 151.78906 71.421875 A 4.0004 4.0004 0 0 0 150 71 L 140.71289 71 z " />
+  </g>
+</svg>
