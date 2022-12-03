@@ -27,5 +27,9 @@ func rotate_with_tracks(rad: float) -> void:
 
 func move_with_tracks(velocity_y: float, _rotation: float) -> void:
 	track_velocity = velocity_y / Vector2.DOWN.rotated(_rotation).y;
-	l.region_rect.position.y += track_velocity;
-	r.region_rect.position.y += track_velocity;
+	l.region_rect.position.y -= track_velocity;
+	r.region_rect.position.y -= track_velocity;
+
+	if absf(r.region_rect.position.y) > track_height:
+		l.region_rect.position.y = fmod(l.region_rect.position.y, track_height);
+		r.region_rect.position.y = fmod(r.region_rect.position.y, track_height);

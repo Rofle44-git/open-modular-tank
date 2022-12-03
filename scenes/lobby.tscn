@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dsdh5yvce5104" path="res://objects/props/shop.tscn" id="3_f7em7"]
 [ext_resource type="Script" path="res://scenes/PauseMenu.gd" id="5_7opdf"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oygy2"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0dk1j"]
 bg_color = Color(0, 0, 0, 0.784314)
 corner_detail = 1
 
@@ -68,7 +68,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_oygy2")
+theme_override_styles/panel = SubResource("StyleBoxFlat_0dk1j")
 
 [node name="CenterContainer" type="CenterContainer" parent="GUI/PauseMenu"]
 layout_mode = 1

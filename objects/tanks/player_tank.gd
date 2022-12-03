@@ -10,8 +10,8 @@ var direction: Vector2 = Vector2.ZERO;
 
 func _ready() -> void:
 	# Loading values from save
-	var equipment: Array = game.active_save.inventory.get_equipped();
-	
+#	var equipment: Array = game.active_save.inventory.get_equipped();
+	pass
 
 func _unhandled_input(_event: InputEvent) -> void:
 	# Zoom

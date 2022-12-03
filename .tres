@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3]
 
-[sub_resource type="GDScript" id="GDScript_xfkcq"]
+[sub_resource type="GDScript" id="GDScript_e61r7"]
 script/source = "class_name Save
 extends Resource
 ## Resource that saves Data about the Player's Progress
@@ -22,4 +22,4 @@ func apply_playtime(start_time: int) -> void:
 "
 
 [resource]
-script = SubResource("GDScript_xfkcq")
+script = SubResource("GDScript_e61r7")
